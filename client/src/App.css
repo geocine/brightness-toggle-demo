@@ -1,0 +1,70 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote,
+pre,
+dl, dd, ol, ul,
+figure,
+hr {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class], ol[class] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove text decoration on all elements */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Add focus style to active elements */
+a:active, a:hover {
+  outline-width: 0;
+}
+
+/* Reset images to display as blocks */
+img, picture {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset table behavior */
+table {
+  border-collapse: collapse;
+}
+
+/* Reset button styles */
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+/* Inherit font-family and font-size from <html> element */
+body {
+  font-family: inherit;
+  font-size: inherit;
+}
